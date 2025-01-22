@@ -5,6 +5,7 @@
   "scripts": {
     "build": "next build",
     "chakra": "chakra",
+    "commit": "git-cz",
     "lint": "next lint",
     "prepare": "husky",
     "start": "next start",
@@ -21,10 +22,20 @@
   },
   "devDependencies": {
     "@chakra-ui/cli": "^3.4.0",
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@commitlint/cz-commitlint": "^19.6.1",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "commitizen": "^4.3.1",
     "husky": "^9.1.7",
+    "inquirer": "9",
     "typescript": "^5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
   }
 }
