@@ -1,12 +1,11 @@
-import { Provider as ChakraUIProvider } from "@components/ui/provider"
-import { ReactNode } from "react"
+import { Provider as ChakraUIProvider } from '@components/ui/provider'
+
+import { ReactNode } from 'react'
 
 type ProviderProps = {
-    children: ReactNode
+  children: ReactNode
 }
 
-export function Provider({ children }:ProviderProps) {
-    return (
-        <ChakraUIProvider>{children}</ChakraUIProvider>
-    )
+export function Provider({ children }: ProviderProps) {
+  return <ChakraUIProvider>{children}</ChakraUIProvider>
 }
