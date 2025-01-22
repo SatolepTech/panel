@@ -6,6 +6,7 @@
     "build": "next build",
     "chakra": "chakra",
     "lint": "next lint",
+    "prepare": "husky",
     "start": "next start",
     "start:dev": "next dev"
   },
@@ -23,6 +24,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "husky": "^9.1.7",
     "typescript": "^5"
   }
 }
