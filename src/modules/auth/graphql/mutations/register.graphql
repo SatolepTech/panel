@@ -1,0 +1,11 @@
+mutation register(
+  $user: AuthRegisterUserInput!
+  $company: AuthRegisterCompanyInput!
+) {
+  register(
+    user: $user
+    company: $company
+  ) {
+	  success
+  }
+}
