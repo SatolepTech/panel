@@ -1,6 +1,6 @@
 import './globals.css'
 
-import { Provider } from './providers'
+import { Providers } from './providers'
 
 import type { Metadata } from 'next'
 
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang='pt-br' suppressHydrationWarning>
       <body>
-        <Provider>{children}</Provider>
+        <Providers>{children}</Providers>
       </body>
     </html>
   )

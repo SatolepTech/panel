@@ -1,0 +1,3 @@
+type ClientHeaders = {
+  authorization?: string
+}
